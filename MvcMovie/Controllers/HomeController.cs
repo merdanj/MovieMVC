@@ -10,6 +10,7 @@ using System.Web.Mvc;
 
 namespace MvcMovie.Controllers
 {
+    [RequireHttps]
     public class HomeController : Controller
     {
         public ActionResult Index()
